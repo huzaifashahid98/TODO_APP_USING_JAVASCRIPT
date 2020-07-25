@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://cdn.lynda.com/course/645024/645024-637286229367245090-16x9.jpg");
+}
+.main
+{
+    text-align: center;
+}
+.colours
+{
+    /* background-color: gray; */
+    width: 800px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 25px;
+    
+}
+.mainlist{
+    margin-top: 10px;
+}
+.mybtn{
+    margin-left: 200px;
+   
+}
+.description
+{
+    text-align: center;
+}
+.mybtndel{
+    margin-top: 5px;
+}
+.mybtnedit{
+     margin-top: 5px;
+     margin-left: 2px;
+}
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+  }
+   
+  input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 3px solid rgba(81, 203, 238, 1);
+  }
